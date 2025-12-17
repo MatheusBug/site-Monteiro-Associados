@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 md:px-12 max-w-7xl pt-20">
-        <div className="max-w-3xl">
+        <div className="max-w-4xl">
           <FadeIn direction="up" delay={0.2}>
             <div className="inline-block px-3 py-1 mb-6 border-l-2 border-gold-500 bg-white/5 backdrop-blur-sm">
               <span className="text-gold-400 text-xs md:text-sm uppercase tracking-[0.2em] font-medium">
@@ -25,20 +25,21 @@ const Hero: React.FC = () => {
               </span>
             </div>
           </FadeIn>
-          
+
           <FadeIn direction="up" delay={0.4}>
             <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              Defendendo seus interesses com <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 to-gold-600">autoridade</span> e integridade.
+              Defendendo seus interesses com <br className="hidden lg:block" />
+              <span className="text-gold-500">autoridade</span> e integridade.
             </h1>
           </FadeIn>
-          
+
           <FadeIn direction="up" delay={0.6}>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl font-light">
-              Soluções jurídicas personalizadas para empresas e famílias. 
+              Soluções jurídicas personalizadas para empresas e famílias.
               Compromisso inegociável com a ética e a obtenção dos melhores resultados possíveis.
             </p>
           </FadeIn>
-          
+
           <FadeIn direction="up" delay={0.8}>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
